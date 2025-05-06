@@ -1,2 +1,29 @@
-# HotelManagementSystem
- Hotel Management System is a Java Swing-based desktop application integrated with MySQL. It supports features like user login, room booking, check-in/check-out tracking, food service requests, and real-time room availability management.
+# 🏨 Hotel Management System
+
+A Hotel Management System desktop application built using Java Swing and MySQL. It supports user registration, login, room booking, check-in/check-out, and more.
+
+## ✨ Features
+
+- User login and registration (admin and customer)
+- Room booking with availability by category
+- Check-in and check-out tracking
+- View booking status
+- Option to request food service
+- MySQL database integration
+
+## 🖥️ Technologies Used
+
+- **Java** with **Swing** for the UI
+- **MySQL** for database management
+- **JDBC** for database connectivity
+
+## 🗃️ Database Setup
+
+1. Create a MySQL database named `hotel_management`.
+2. Run the following SQL schema (or import the provided SQL file in `/database` folder):
+
+```sql
+CREATE DATABASE hotel_management;
+USE hotel_management;
+
+-- Add table creation SQL here (e.g., users, rooms, bookings)
