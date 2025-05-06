@@ -19,11 +19,11 @@ A Hotel Management System desktop application built using Java Swing and MySQL. 
 
 ## 🗃️ Database Setup
 
-1. Create a MySQL database named `hotel_management`.
+1. Create a MySQL database named `hotel_db`.
 2. Run the following SQL schema (or import the provided SQL file in `/database` folder):
 
 ```sql
-CREATE DATABASE hotel_management;
-USE hotel_management;
+CREATE DATABASE hotel_db;
+USE hotel_db;
 
 -- Add table creation SQL here (e.g., users, rooms, bookings)
